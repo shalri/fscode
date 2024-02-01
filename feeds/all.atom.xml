@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>FScode notes</title><link href="https://shalri.github.io/fscode/" rel="alternate"></link><link href="https://shalri.github.io/fscode/feeds/all.atom.xml" rel="self"></link><id>https://shalri.github.io/fscode/</id><updated>2024-01-31T23:33:00+08:00</updated><entry><title>Pelican `make github`</title><link href="https://shalri.github.io/fscode/pelican-make-github.html" rel="alternate"></link><published>2024-01-31T23:33:00+08:00</published><updated>2024-01-31T23:33:00+08:00</updated><author><name>shalri</name></author><id>tag:shalri.github.io,2024-01-31:/fscode/pelican-make-github.html</id><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;git@github.com:arulrajnet/attila.git&lt;span class="w"&gt; &lt;/span&gt;pelican-themes&lt;span class="o"&gt;(&lt;/span&gt;my&lt;span class="w"&gt; &lt;/span&gt;directory&lt;span class="o"&gt;)&lt;/span&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>FScode notes</title><link href="https://shalri.github.io/fscode/" rel="alternate"></link><link href="https://shalri.github.io/fscode/feeds/all.atom.xml" rel="self"></link><id>https://shalri.github.io/fscode/</id><updated>2024-02-01T21:08:00+08:00</updated><entry><title>Add Remote Repository for Pelican `main`</title><link href="https://shalri.github.io/fscode/add-remote-repository-for-pelican-main.html" rel="alternate"></link><published>2024-02-01T21:08:00+08:00</published><updated>2024-02-01T21:08:00+08:00</updated><author><name>shalri</name></author><id>tag:shalri.github.io,2024-02-01:/fscode/add-remote-repository-for-pelican-main.html</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Add the new remote repository&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to your local repository in your terminal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Add the new remote repository using the &lt;code&gt;git remote add&lt;/code&gt; command:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;bash
+   git remote add new_remote https://github.com/username/new-repo.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Replace &lt;code&gt;new_remote&lt;/code&gt; with the name you want to give to the new remote repository, and …&lt;/p&gt;</summary><content type="html">&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Add the new remote repository&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to your local repository in your terminal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Add the new remote repository using the &lt;code&gt;git remote add&lt;/code&gt; command:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;bash
+   git remote add new_remote https://github.com/username/new-repo.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Replace &lt;code&gt;new_remote&lt;/code&gt; with the name you want to give to the new remote repository, and &lt;code&gt;https://github.com/username/new-repo.git&lt;/code&gt; with the URL of the new remote repository.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Push the main branch to the new remote repository&lt;/strong&gt;:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Still in your local repository, push the &lt;code&gt;main&lt;/code&gt; branch to the new remote repository:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code&gt;bash
+   git push new_remote main&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This will push the &lt;code&gt;main&lt;/code&gt; branch to the new remote repository. The &lt;code&gt;gh-pages&lt;/code&gt; branch will still be in the old repository.&lt;/p&gt;
+&lt;p&gt;Now, you have two remote repositories: one for the &lt;code&gt;gh-pages&lt;/code&gt; branch (the old repository), and one for the &lt;code&gt;main&lt;/code&gt; branch (the new repository). You can version control them independently while maintaining a single local repository.&lt;/p&gt;</content><category term="Test"></category></entry><entry><title>Pelican `make github`</title><link href="https://shalri.github.io/fscode/pelican-make-github.html" rel="alternate"></link><published>2024-01-31T23:33:00+08:00</published><updated>2024-01-31T23:33:00+08:00</updated><author><name>shalri</name></author><id>tag:shalri.github.io,2024-01-31:/fscode/pelican-make-github.html</id><content type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;gt;&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;git@github.com:arulrajnet/attila.git&lt;span class="w"&gt; &lt;/span&gt;pelican-themes&lt;span class="o"&gt;(&lt;/span&gt;my&lt;span class="w"&gt; &lt;/span&gt;directory&lt;span class="o"&gt;)&lt;/span&gt;
 &amp;gt;&lt;span class="w"&gt; &lt;/span&gt;pelican-themes&lt;span class="w"&gt; &lt;/span&gt;--install&lt;span class="w"&gt; &lt;/span&gt;attila&lt;span class="w"&gt; &lt;/span&gt;--verbose
 &amp;gt;&lt;span class="w"&gt; &lt;/span&gt;make&lt;span class="w"&gt; &lt;/span&gt;github
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
