@@ -2,7 +2,7 @@
 title: "Django Frontend Reload"
 topic: "Django"
 category: "Workflow"
-sub_category: ""
+sub_category: "Python"
 ---
 
 # Reloading HTML CSS changes
@@ -10,13 +10,15 @@ sub_category: ""
 1. **Install Dependencies**:
 
    - Install `django-browser-reload`:
-     ```bash
+
+     ```shell
      python -m pip install django-browser-reload
      ```
 
 2. **Update Django Settings**:
 
    - Ensure `"django.contrib.staticfiles"` is in your `INSTALLED_APPS` in `settings.py`:
+
      ```python
      INSTALLED_APPS = [
          # ...
@@ -24,7 +26,9 @@ sub_category: ""
          # ...
      ]
      ```
+
    - Add `"django_browser_reload"` to `INSTALLED_APPS`:
+
      ```python
      INSTALLED_APPS = [
          # ...
@@ -65,13 +69,11 @@ sub_category: ""
 
    - The middleware inserts a script tag on HTML responses when `DEBUG` is `True`, enabling automatic reloading.
 
-5. **All Set!** 🚀
+5. \*\*All Set!
    - Now, when you save changes to Python files, HTML, or CSS files, your browser will automatically reload to reflect those changes.
    - For even faster and more efficient reloading, consider setting up Django’s built-in Watchman support alongside `django-browser-reload`.
 
 ## Watchman
-
-I apologize for the oversight. Let's get straight to the point:
 
 1. **Install Watchman on WSL2**:
 
@@ -81,17 +83,3 @@ I apologize for the oversight. Let's get straight to the point:
      sudo apt update
      sudo apt install watchman
      ```
-
-2. **Integrate Watchman with Django**:
-   - Set up a Django project.
-   - Install `pywatchman`:
-     ```
-     pywatchman
-     ```
-   - Start your Django server:
-     ```bash
-     python manage.py runserver
-     ```
-   - Configure Watchman for efficient file reloading.
-
-Feel free to ask if you need further assistance! 🚀

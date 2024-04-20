@@ -7,12 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundImage: {},
+      fontFamily: {
+        jbmono: ['"JetBrains Mono"', "monospace"],
+        pstart: ['"Press Start 2P"', "monospace"],
+      },
+      colors: {
+        "yellow-fs": "rgb(226, 183, 20)",
+        "gray-fs": "rgb(50, 52, 55)",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

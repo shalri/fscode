@@ -19,10 +19,48 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-end-rgb));
+  @apply flex min-h-screen flex-col;
+}
+
+main#article a {
+  @apply hover:opacity-100 transition-opacity duration-200 !text-yellow-fs opacity-80 !no-underline;
+}
+
+/* Home Page */
+.md-h1 {
+  @apply text-gray-500;
+}
+span.post-titles {
+  @apply hover:text-yellow-fs transition-colors duration-300;
+}
+
+article h1 {
+  @apply !font-pstart;
+}
+
+header {
+  @apply py-5 px-10 border-b border-gray-700 mb-20;
+}
+header h1 {
+  @apply text-yellow-fs font-semibold;
+}
+header span#logo-span {
+  @apply opacity-50;
+}
+
+footer {
+  @apply py-5 px-10 border-t border-gray-700 mt-20 text-right text-gray-600;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  pre,
+  code {
+    @apply font-jbmono !font-thin;
+  }
+  /* main#article h1 { */
+  /*   @apply !font-pstart; */
+  /* } */
 }
