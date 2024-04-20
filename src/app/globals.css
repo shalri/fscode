@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,7 +36,7 @@ span.post-titles {
 }
 
 article h1 {
-  @apply !font-pstart;
+  @apply !font-pstart !mb-20;
 }
 
 header {
