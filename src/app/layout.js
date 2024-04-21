@@ -1,9 +1,11 @@
-import { Inter, JetBrains_Mono, Press_Start_2P } from "next/font/google";
+// import { Inter, JetBrains_Mono, Press_Start_2P } from "next/font/google";
+import { Overpass, JetBrains_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const op = Overpass({ subsets: ["latin"] });
 const JetBrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 const pressStart = Press_Start_2P({ subsets: ["latin"], weight: "400" });
 
@@ -15,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${op.className}`}>
         <Header />
         {children}
         <Footer />
