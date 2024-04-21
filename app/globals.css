@@ -37,29 +37,9 @@ main#article h1 {
 .md-h1 {
   @apply text-gray-500;
 }
-span.post-titles {
-  @apply hover:text-yellow-fs transition-colors duration-300;
-}
 
 article h1 {
   @apply !font-pstart !mb-20;
-}
-
-header {
-  @apply py-5 md:px-10 px-4 border-b border-gray-700 mb-20;
-}
-header #branding {
-  @apply text-yellow-fs font-semibold text-xl;
-}
-header span#logo-span {
-  @apply opacity-50;
-}
-
-/* footer { */
-/*   @apply py-5 md:px-10 px-4 border-t border-gray-700 mt-20 text-right text-gray-600; */
-/* } */
-footer {
-  @apply py-5 border-t border-gray-700 mt-20 text-right text-gray-600;
 }
 
 @layer utilities {
@@ -69,8 +49,5 @@ footer {
   pre,
   code {
     @apply font-jbmono !font-light;
-  }
-  footer span#date {
-    @apply border-r-8 border-yellow-fs pr-1 pt-[5px];
   }
 }

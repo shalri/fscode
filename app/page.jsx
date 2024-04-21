@@ -10,7 +10,7 @@ const Home = () => {
       className="flex h-full flex-grow w-full lg:w-[1000px] m-auto px-10 py-20"
     >
       <div className="flex flex-col font-jbmono">
-        <h2 className="mb-2">
+        <h2 className="mb-2 opacity-70">
           <span className="opacity-25">./</span>Notes
           <span className="opacity-25">/</span>
         </h2>
