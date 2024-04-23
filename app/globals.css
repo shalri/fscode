@@ -30,7 +30,7 @@ main#article a {
   @apply hover:opacity-100 transition-opacity duration-200 !text-yellow-fs opacity-80 !no-underline;
 }
 main#article h1 {
-  @apply pr-4 md:border-r-8 border-yellow-fs;
+  @apply pr-4 md:border-r-8 md:-mr-[10px] border-yellow-fs pt-20 leading-tight;
 }
 
 /* Home Page */

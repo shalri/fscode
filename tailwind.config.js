@@ -15,7 +15,8 @@ module.exports = {
       },
       colors: {
         "yellow-fs": "rgb(226, 183, 20)",
-        "gray-fs": "rgb(50, 52, 55)",
+        // "gray-line": "rgb(168, 168, 168, 0.3)",
+        "gray-fs-100": "rgb(226, 183, 20, 0.2)",
       },
     },
   },
