@@ -12,6 +12,7 @@ const pressStart = Press_Start_2P({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: "FScode",
   description: "Notes on web develepment",
+  icons: "./favicon.ico",
 };
 
 export default function RootLayout({ children }) {
