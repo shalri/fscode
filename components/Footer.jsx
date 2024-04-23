@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="mt-20 py-5 text-right border-t border-gray-fs-100 flex justify-between items-center">
       <div className="pl-1 opacity-30 m-auto hover:opacity-80 transition-opacity duration-200">
         <a href="/">
-          <Image src="/fscode32x32.png" width={32} height={32} alt="logo" />
+          <Image src="./fscode32x32.png" width={32} height={32} alt="logo" />
         </a>
       </div>
       <span
