@@ -5,7 +5,7 @@ const PostTitles = (props) => {
   return (
     <Link href={`/post/${post.slug}`}>
       <span className="md-h1"># </span>
-      <span className="hover:text-yellow-fs transition-colors duration-300">
+      <span className="transition-colors duration-300 hover:text-yellow-fs">
         {post.title}
       </span>
     </Link>
