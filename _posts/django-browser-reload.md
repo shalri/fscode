@@ -11,7 +11,7 @@ sub_category: "Python"
 
    - Install `django-browser-reload`:
 
-     ```shell
+     ```bash
      python -m pip install django-browser-reload
      ```
 
