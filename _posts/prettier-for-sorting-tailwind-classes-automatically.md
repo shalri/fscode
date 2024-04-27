@@ -1,68 +1,86 @@
 ---
-title: "Prettier for Sorting Tailwind Classes Automatically"
+title: "Automatically Sorting Tailwind Classes with Prettier"
 content_type: "notes"
-topic: "Tailwind"
+topic: "tailwind"
 category: "workflow"
 sub_category: "frontend"
-date: "2024-04-24"
-status: "draft"
+status: "publish"
+date: "2024-04-26"
 ---
 
-# Prettier for Sorting Tailwind Classes
+# Automatically Sorting Tailwind Classes with Prettier
 
-TODO: Introduction discuss Prettier and the tendency of Tailwind utility classes
-to be disorganized
+Tailwind CSS is a paradigm shift in my workflow. But I have to admit,
+utility classes can become so unwieldy on certain elements. One way of "taming
+the beast" is to use Tailwind's Prettier plugin.
 
-[prettier-plugin-tailwindcss Github](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+## Installing the Prettier Plugin
 
-## Installing Prettier
+Note: install Prettier as a dev dependency.
 
-1. Run in terminal
+1. Run in terminal:
 
-```shell
-npm install -D prettier
-
+```bash
+npm install -D prettier prettier-plugin-tailwindcss
 ```
 
-Check if it is installed `devDependencies`.
+With the command above, you now have installed Prettier and the Prettier plugin
+for Tailwind as a dev dependency.
 
-3. Using Prettier
+2. Create and Edit `.prettierrc`
 
-Command for checking:
+The `.prettierrc` file serves as a configuration for the Prettier plugin.
+Create the `.prettierrc` on the root directory of the project:
 
-```shell
+```bash
+touch .prettierrc
+```
+
+_Learn more about [Prettier's configuration file](https://prettier.io/docs/en/configuration.html)_
+
+Type the following code onto the `.prettierrc` file:
+
+```json
+{
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
+```
+
+## Using the Prettier Tailwind plugin
+
+### Checking Files and Directory
+
+```bash
+# Checking a file
 npx prettier --check path/to/file
 
+# Checking all files in a directory
+npx prettier --check path/to/folder
+
+# Checking all files in the directory
+npx prettier --check .
 ```
 
-Command for formatting:
+### Apply Formatting
 
-```shell
-npx prettier --write folder
+```bash
+# Formatting a file
+npx prettier --write path/to/file
+
+# Formatting files a directory
+npx prettier --write path/to/folder
+
+# Formatting all files in the directory
+npx prettier --write .
 ```
 
-- Yep you can format the all the files in the directory.
-- (.) for entire project
+## Format on Save
 
-4. Format on Save
+If you have Prettier as one of your editor's formatters, this will
+conveniently sort your Tailwind classes automatically.
 
-Editor set up...
+## Learn More
 
-5. Installing Prettier for Tailwind
+### How Tailwind Sorts the Utility Classes
 
-```shell
-npm install -D prettier prettier-plugin-tailwindcss
-
-```
-
-6. Create `.prettierrc`
-
-This file allows you to configure Prettier
-
-## How Tailwind Sorts the Utility class
-
-- [Video](https://www.youtube.com/watch?v=_CntOc4hBcg&t=281s)
-
-TODO: Brief explanation and overview
-
-## Formatting an existing project
+- [Video From Tailwind Labs](https://www.youtube.com/watch?v=_CntOc4hBcg&t=281s)
