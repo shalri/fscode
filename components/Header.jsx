@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center border-b border-gray-fs-100 py-4 md:px-10 px-4">
+    <header className="flex items-center justify-between border-b border-gray-fs-100 px-4 py-4 md:px-10">
       <Link href="/">
-        <div id="branding" className="text-yellow-fs font-semibold text-xl">
+        <div id="branding" className="text-xl font-semibold text-yellow-fs">
           <span className="opacity-50">~/</span> FScode
         </div>
       </Link>
 
-      <div className="opacity-40 hover:opacity-100 transitiion-opacity duration-500">
+      <div className="transitiion-opacity opacity-40 duration-500 hover:opacity-100">
         <a href="https://github.com/shalri">
           <svg
-            className="w-8 h-10 fill-yellow-fs"
+            className="h-10 w-8 fill-yellow-fs"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"
           >

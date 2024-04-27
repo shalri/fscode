@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main
       id="home"
-      className="flex h-full flex-grow w-full lg:w-[1000px] m-auto px-10 py-20"
+      className="m-auto flex h-full w-full flex-grow px-10 py-20 lg:w-[1000px]"
     >
       <div className="flex flex-col font-jbmono">
         <h2 className="mb-2 opacity-70">
@@ -21,5 +21,4 @@ const Home = () => {
     </main>
   );
 };
-
 export default Home;
