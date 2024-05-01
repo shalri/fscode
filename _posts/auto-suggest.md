@@ -1,11 +1,14 @@
 ---
-title: "Installing ZSH auto-suggest and auto-completion"
-topic: "ZSH"
+title: "Installing ZSH atuo-suggestion and auto-completion"
+content_type: "notes"
+topic: "Terminal"
 category: "Workflow"
-sub_category: "Terminal"
+sub_category: "Teminal"
+status: "draft"
+date: "2024-05-01"
 ---
 
-# Installing ZSH auto-suggest and auto-completion
+# Installing ZSH atuo-suggestion and auto-completion
 
 Enabling auto-suggestions and auto-completion in Zsh can enhance your command-line experience. To achieve this, you can use the Oh My Zsh framework, a popular community-driven collection of plugins and themes for Zsh. Here are the steps to set up auto-suggestions and auto-completion:
 
