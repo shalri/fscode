@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -6,15 +5,17 @@ const Footer = () => {
     <footer className="mt-20 flex items-center justify-between border-t border-gray-fs-100 py-5 text-right">
       <div className="m-auto pl-1 opacity-30 transition-opacity duration-200 hover:opacity-80">
         <Link href="/">
-          <Image src="./fscode32x32.png" width={32} height={32} alt="logo" />
+          <div className="flex h-8 w-8 items-center justify-center rounded-[5px] bg-yellow-fs">
+            <span className="pt-1 font-bold text-gray-800">FS</span>
+          </div>
         </Link>
       </div>
-      <span
+      <div
         id="date"
-        className="border-r-8  border-yellow-fs pb-[1px] pr-1 pt-[6px] text-gray-500"
+        className="border-r-8  border-yellow-fs pb-[1px] pr-1 pt-[6px]"
       >
-        2024
-      </span>
+        <span className="opacity-30">2024</span>
+      </div>
     </footer>
   );
 };
