@@ -17,6 +17,10 @@ export const generateStaticParams = async () => {
   return posts.map((post) => ({ slug: post.slug }));
 };
 
+export const metadata = {
+  title: "Notes",
+};
+
 export default function PostPage(props) {
   const slug = props.params.slug;
   const post = getPostContent(slug);
