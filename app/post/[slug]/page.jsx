@@ -12,6 +12,7 @@ function getPostContent(slug) {
   const matterResult = matter(content);
   return matterResult;
 }
+
 export const generateStaticParams = async () => {
   const posts = getPostMetadata("_posts");
   return posts.map((post) => ({ slug: post.slug }));

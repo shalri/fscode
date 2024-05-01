@@ -14,9 +14,12 @@ const Home = () => {
           <span className="opacity-25">./</span>Notes
           <span className="opacity-25">/</span>
         </h2>
-        {postMetadata.map((post, postIndex) => (
-          <PostTitles key={postIndex} post={post} />
-        ))}
+        {postMetadata.map(
+          (post, postIndex) =>
+            post.status !== "draft" && (
+              <PostTitles key={postIndex} post={post} />
+            ),
+        )}
       </div>
     </main>
   );

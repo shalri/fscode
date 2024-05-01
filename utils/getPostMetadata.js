@@ -22,7 +22,7 @@ const getPostMetadata = (basePath) => {
     };
   });
 
-  posts = posts.filter((post) => post.status !== "draft");
+  // posts = posts.filter((post) => post.status !== "draft");
 
   return posts;
 };

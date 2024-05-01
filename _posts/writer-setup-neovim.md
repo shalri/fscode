@@ -1,11 +1,14 @@
 ---
-title: "Neovim Setup for Blog Posts"
+title: "Neovim Setup for Writing"
+content_type: "notes"
 topic: "Neovim"
 category: "Workflow"
 sub_category: "Setup"
+status: "draft"
+date: "2024-05-01"
 ---
 
-# The Writer's Setup for Neovim
+# Neovim Setup for Writing
 
 - [Main source](https://www.youtube.com/watch?v=oLpGahrsSGQ)
 
