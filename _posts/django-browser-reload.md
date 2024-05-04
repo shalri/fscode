@@ -5,7 +5,7 @@ topic: "Django"
 category: "Workflow"
 sub_category: "Python"
 status: "publish"
-date: "2024-05-01"
+date: "2024-04-01"
 ---
 
 # Django Browser-Reload
@@ -75,3 +75,5 @@ The middleware inserts a script tag on HTML responses when `DEBUG` is `True`, en
 5. **All Set!**
 
 Now, when you save changes to Python files, HTML, or CSS files, your browser will automatically reload to reflect those changes.
+
+![logo](/fscode32x32.png)

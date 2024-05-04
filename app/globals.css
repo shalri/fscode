@@ -50,3 +50,14 @@ article h1 {
     @apply font-jbmono !font-light;
   }
 }
+
+.stripe-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(226, 183, 20, 0.3) 0,
+    rgba(226, 183, 20, 0.3) 0.5px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 4px 4px;
+}

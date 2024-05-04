@@ -17,6 +17,7 @@ module.exports = {
         "yellow-fs": "rgb(226, 183, 20)",
         // "gray-line": "rgb(168, 168, 168, 0.3)",
         "gray-fs-100": "rgb(226, 183, 20, 0.2)",
+        "gray-fs": "rgb(226, 183, 20, 0.5)",
       },
       typography(theme) {
         return {

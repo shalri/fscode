@@ -13,7 +13,6 @@ export const metadata = {
     default: "FScode",
   },
   description: "Notes on web develepment",
-  icons: "./favicon.ico",
 };
 
 export default function RootLayout({ children }) {
