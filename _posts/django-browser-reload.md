@@ -76,4 +76,4 @@ The middleware inserts a script tag on HTML responses when `DEBUG` is `True`, en
 
 Now, when you save changes to Python files, HTML, or CSS files, your browser will automatically reload to reflect those changes.
 
-![logo](/fscode32x32.png)
+![logo](./fscode32x32.png)
