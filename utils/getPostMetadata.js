@@ -22,6 +22,8 @@ const getPostMetadata = (basePath) => {
     };
   });
 
+  posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+  console.log(posts);
   // posts = posts.filter((post) => post.status !== "draft");
 
   return posts;
