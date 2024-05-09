@@ -16,20 +16,15 @@
     --background-end-rgb: 50, 52, 55;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-end-rgb));
-}
-main#article {
-  @apply px-4 md:px-0;
-}
-
-main#article a {
-  @apply !text-yellow-fs !no-underline opacity-80 transition-opacity duration-200 hover:opacity-100;
-}
-main#article h1 {
-  @apply border-yellow-fs pr-4 pt-20 leading-tight md:-mr-[10px] md:border-r-8;
+.stripe-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(226, 183, 20, 0.3) 0,
+    rgba(226, 183, 20, 0.3) 0.5px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 4px 4px;
 }
 
 /* Home Page */
@@ -49,15 +44,10 @@ article h1 {
   code {
     @apply font-jbmono !font-light;
   }
-}
-
-.stripe-bg {
-  background-image: repeating-linear-gradient(
-    45deg,
-    rgba(226, 183, 20, 0.3) 0,
-    rgba(226, 183, 20, 0.3) 0.5px,
-    transparent 0,
-    transparent 50%
-  );
-  background-size: 4px 4px;
+  main#article {
+    @apply px-4 pt-10 md:px-0;
+  }
+  main#article h1 {
+    @apply border-yellow-fs pr-4 pt-20 leading-tight md:-mr-[10px] md:border-r-8;
+  }
 }

@@ -50,7 +50,7 @@ workflow tight. Plus it is free!
 
 ## Tailwind and Vite
 
-I love Tailwind. Since I started using it has been part of my workflow.
+I love Tailwind. It has been an integral part of my workflow.
 Vite also helps by streamlining the build process. I created a base template
 using this killer combo, you can check out the [soko repo](https://github.com/shalri/soko).
 

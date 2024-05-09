@@ -3,11 +3,10 @@ import getPostMetadata from "@/utils/getPostMetadata";
 
 const Home = () => {
   const postMetadata = getPostMetadata("_posts");
-  // console.log(postMetadata);
   return (
     <main
       id="home"
-      className="m-auto flex h-full w-full flex-grow px-10 py-20 lg:w-[1000px]"
+      className="m-auto flex h-full w-full flex-grow px-10 py-32 lg:w-[1000px]"
     >
       <div className="flex flex-col font-jbmono">
         <h2 className="mb-2 opacity-70">
