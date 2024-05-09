@@ -46,24 +46,22 @@ service.
 
 I chose to host my initial project with GitHub Pages since I plan to do
 more challenges. Having my repo and using GitHub Pages to host it keeps my
-workflow tight. Plus it is free!
+workflow tight. Plus, it is free!
 
 ## Tailwind and Vite
 
 I love Tailwind. It has been an integral part of my workflow.
 Vite also helps by streamlining the build process. I created a base template
-using this killer combo, you can check out the [soko repo](https://github.com/shalri/soko).
+using this killer combo. You can check out the [soko repo](https://github.com/shalri/soko).
 
 ## Starting the Challenge
 
 I will be using the [Blog Review Card](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/663243dd20fb35b1b65f8a05/challenge/starturl) challenge as an example.
-The nice thing about [FrontendMentor.io](https://www.frontendmentor.io/) is they give you a style
+The nice thing about [FrontendMentor.io](https://www.frontendmentor.io/) is that they give you a style
 guide and the assets you need to complete the challenge. With the assets
-on hand, I started the project by deploying my initial setup. This
-helps me prevent some headaches like broken source links and the build
-just failing. Nothing is more irritating than when you discover some
-unexpected bugs on your deployed project that didn't exist in your local
-environment. I find it much better to find these quirks from the start.
+on hand, I will start the project by deploying my initial setup. This
+helps me prevent some headaches like broken source links and build failures.
+Nothing is more irritating than unexpected bugs on your deployed project that didn't exist in your local environment. I find it better to discover these quirks from the start.
 
 You can follow along with me and set up the GitHub Pages from scratch.
 
@@ -77,16 +75,16 @@ Here are the steps to set set up your local repo:
 mkdir blog-review-card && cd blog-review-card
 ```
 
-### 2. When you are inside the `blog-review-card` directory run this command:
+### 2. When you are inside the `blog-review-card` directory, run this command:
 
 ```bash
 npm create vite@latest .
 ```
 
-You will be prompted by ViteJS for some options regarding the setup of your
-project. Just select `Vanilla` and `JavaScript` since this is just a simple project.
+You will be prompted by ViteJS for options regarding the setup of the
+project. For this simple project, select `Vanilla` and `JavaScript`.
 
-After providing your options on the prompts, you will see something like
+After providing your options to the prompts, you will see something like
 this:
 
 ```bash
@@ -126,13 +124,13 @@ npm install
 npm run dev
 ```
 
-Now that your project scaffolding is created and you have the dev server up
-and running it's time to install Tailwind.
+Now that your project's scaffolding has been created and you have the dev server up
+and running, it's time to install Tailwind.
 
 ### 4. Installing Tailwind
 
-Now after the project scaffolding has been conveniently created by Vite. It's
-time to install Tailwind.
+Installing Tailwind is straightforward. Just type the following command in your
+terminal:
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
@@ -141,7 +139,7 @@ npx tailwindcss init -p
 
 ### 5. Configuring Tailwind
 
-The rest of the steps are from the [Tailwind docs]:
+The rest of the steps are from the [Tailwind docs](https://tailwindcss.com/docs/guides/vite):
 
 **_tailwind.config.js_** - add paths to all your template files.
 
@@ -164,7 +162,7 @@ export default {
 @tailwind utilities;
 ```
 
-You can delete all the contents of `styles.css` and just add the Tailwind
+You can delete all the contents of `styles.css` and add the Tailwind
 directives above.
 
 **Optional** but highly recommended when playing around with Tailwind--[Sorting Classes with Prettier](https://shalri.github.io/fscode/post/prettier-for-sorting-tailwind-classes-automatically)
@@ -197,7 +195,7 @@ to have its own public Github repo. Let's get to it!
 
 ### 1. `git init` and First Commit
 
-On the root of your project directory just run the command to initialize `git`
+On the root of your project directory, just run the command to initialize `git`
 
 ```bash
 git init
@@ -220,13 +218,13 @@ repo.
 
 Log in to your GitHub account and create a public [new repo](https://github.com/new).
 
-Just follow the instructions on GitHub's Create a new repository page and you're golden.
+Just follow the instructions on GitHub's Create a new repository page, and you're golden.
 
-Note: just copy and paste the section from `git remote add origin` to `git push`
+Note: Copy and paste the section from `git remote add origin` to `git push`
 
 ### 3. Pushing Your First Commit
 
-On your command line just paste the command you copied from the step above.
+Paste the command you copied from the step above on your command line:
 
 ```bash
 git remote add origin git@github.com:<yourAccount>/fm-blog-review-card.git
@@ -251,7 +249,7 @@ Click on the Static HTML configure button.
 
 ### 3. Edit `static.yml` File
 
-**Important**: Make sure to provide the correct Node.js version that you are
+**Important**: Be sure to provide the correct Node.js version you are
 using. You can check by running this command:
 
 ```bash
@@ -319,11 +317,11 @@ Click on the commit changes button. It should be on the top right (colored green
 
 It should be building and deploying your repo to GitHub Pages. After the deployment,
 you will be dismayed when you visit the URL. You will probably see a blank screen
-this is because we have not configured our base path yet.
+since we have not configured our base path yet.
 
 ### 5. `git pull`
 
-You've made changes in the remote repo. You should pull the changes onto your
+Since you made changes in the remote repo, you should pull the changes onto your
 local repo to keep them in sync.
 
 ```bash
@@ -333,7 +331,7 @@ git pull
 ## Almost There
 
 To fix the `404` errors, just create a config file for Vite and name it `vite.config.js`.
-In your `vite.config.js` copy and paste the following code:
+Copy and paste the following code to your `vite.config.js`:
 
 ```javascript
 import { defineConfig } from "vite";
@@ -343,10 +341,10 @@ export default defineConfig({
 });
 ```
 
-To be clear your GitHub Pages URL will look like
+To be clear, your GitHub Pages URL will look like
 `https://<user>.github.io/<name-of-your-repo>`.
 
-Now you're all set. Everything will be automated. Every time you push a commit
+Now you're set. Every time you push a commit
 from your local repo, Github will automatically update your page.
 
 ## Integrating Frontend Mentor Challenge assets
@@ -354,4 +352,4 @@ from your local repo, Github will automatically update your page.
 Integrating the assets and template files from Frontend Mentor is all you
 have to do to start coding.
 
-That's it. Your automated workflow is done.
+That's it. Your automated workflow is ready.
