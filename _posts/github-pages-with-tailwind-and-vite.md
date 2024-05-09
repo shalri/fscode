@@ -332,7 +332,7 @@ git pull
 
 ## Almost There
 
-To fix the `404` errors just create a config file for Vite and name it `vite.config.js`.
+To fix the `404` errors, just create a config file for Vite and name it `vite.config.js`.
 In your `vite.config.js` copy and paste the following code:
 
 ```javascript
