@@ -10,10 +10,9 @@ export const FMChallenges = () => {
       </h2>
       <ul className="text-sm">
         {fmChallenges.map((challenge, index) => (
-          // {/* <li key={index} className="mb-1 bg-[url(/external-link.svg)]"> */}
           <li
             key={index}
-            className="mb-1 flex items-center bg-contain bg-left bg-no-repeat pl-8 "
+            className="mb-1 flex items-center bg-[length:12px_12px] bg-[left_top_5px] bg-no-repeat pl-6"
             style={{
               backgroundImage: `url(${elink.src})`,
             }}
