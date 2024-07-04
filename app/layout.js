@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${op.className}`}>
-      <body className="flex min-h-screen flex-col bg-gray-primary text-white antialiased">
+      <body className="flex min-h-screen flex-col scroll-smooth bg-gray-primary text-white antialiased">
         <Header />
         {children}
         <Footer />
