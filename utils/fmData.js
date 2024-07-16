@@ -20,6 +20,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-easybank-landing-page/",
   },
   {
+    title: "Huddle landing page",
+    level: "Junior",
+    url: "https://shalri.github.io/fm-huddle-landing-page/",
+  },
+  {
     title: "Agency landing page",
     level: "Junior",
     url: "https://shalri.github.io/fm-sunnyside-agency-landing-page/",
