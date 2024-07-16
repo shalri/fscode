@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed flex w-full items-center justify-between border-b border-gray-fs-100 px-4 py-4 backdrop-blur-3xl md:px-10">
+      <header className="z-50 fixed flex w-full items-center justify-between border-b border-gray-fs-100 px-4 py-4 backdrop-blur-3xl md:px-10">
         <Link href="/">
           <div id="branding" className="text-xl font-semibold text-yellow-fs">
             <span className="opacity-50">~/</span> FScode
