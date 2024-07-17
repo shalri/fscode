@@ -65,6 +65,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-advice-generator-app/",
   },
   {
+    title: "FAQ Accordion",
+    level: "Newbie",
+    url: "https://shalri.github.io/fm-faq-accordion/",
+  },
+  {
     title: "Coding bootcamp testimonials slider",
     level: "Junior",
     url: "https://shalri.github.io/fm-coding-bootcamp-testimonials-slider/",
