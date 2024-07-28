@@ -1,5 +1,10 @@
 export const fmChallenges = [
   {
+    title: "Interactive card details form",
+    level: "Junior",
+    url: "https://shalri.github.io/fm-interactive-card-details-form/",
+  },
+  {
     title: "E-commerce product page",
     level: "Intermediate",
     url: "https://shalri.github.io/fm-ecommerce-product-page/",
