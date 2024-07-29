@@ -65,6 +65,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-news-homepage/",
   },
   {
+    title: "NFT Preview card component",
+    level: "Newbie",
+    url: "https://shalri.github.io/fm-nft-preview-card-component/",
+  },
+  {
     title: "Advice generator app",
     level: "Junior",
     url: "https://shalri.github.io/fm-advice-generator-app/",
