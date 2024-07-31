@@ -15,6 +15,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-todo-app/",
   },
   {
+    title: "Base Apparel Coming Soon Page",
+    level: "Newbie",
+    url: "https://shalri.github.io/fm-base-apparel-coming-soon/",
+  },
+  {
     title: "Advice generator app",
     level: "Junior",
     url: "https://shalri.github.io/fm-advice-generator-app/",
