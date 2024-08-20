@@ -5,6 +5,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-interactive-card-details-form/",
   },
   {
+    title: "REST Countries API",
+    level: "Advanced",
+    url: "https://shalri.github.io/fm-rest-countries-api/",
+  },
+  {
     title: "E-commerce product page",
     level: "Intermediate",
     url: "https://shalri.github.io/fm-ecommerce-product-page/",
