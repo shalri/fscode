@@ -25,11 +25,6 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-base-apparel-coming-soon/",
   },
   {
-    title: "Advice generator app",
-    level: "Junior",
-    url: "https://shalri.github.io/fm-advice-generator-app/",
-  },
-  {
     title: "Easybank landing page",
     level: "Intermediate",
     url: "https://shalri.github.io/fm-easybank-landing-page/",
@@ -53,6 +48,11 @@ export const fmChallenges = [
     title: "Tip calculator",
     level: "Junior",
     url: "https://shalri.github.io/fm-tip-calculator-app/",
+  },
+  {
+    title: "Project tracking intro component",
+    level: "Junior",
+    url: "https://shalri.github.io/fm-project-tracking-intro-component",
   },
   {
     title: "Time tracking dashboard",
