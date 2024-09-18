@@ -25,6 +25,16 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-base-apparel-coming-soon/",
   },
   {
+    title: "Intro section with dropdown navigation",
+    level: "Junior",
+    url: "https://shalri.github.io/fm-intro-section-with-dropdown-navigation/",
+  },
+  {
+    title: "Crowdfunding product page",
+    level: "Junior",
+    url: "https://fm-crowdfunding-product-page-fscode.vercel.app/",
+  },
+  {
     title: "Easybank landing page",
     level: "Intermediate",
     url: "https://shalri.github.io/fm-easybank-landing-page/",
