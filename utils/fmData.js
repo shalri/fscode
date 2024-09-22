@@ -20,6 +20,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-todo-app/",
   },
   {
+    title: "Insure landing page",
+    level: "Junior",
+    url: "https://fm-insure-landing-page-fscode.vercel.app/",
+  },
+  {
     title: "Base Apparel Coming Soon Page",
     level: "Newbie",
     url: "https://shalri.github.io/fm-base-apparel-coming-soon/",
