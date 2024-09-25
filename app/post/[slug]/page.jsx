@@ -26,10 +26,8 @@ export default function PostPage(props) {
   const slug = props.params.slug;
   const post = getPostContent(slug);
   return (
-    <main id="article" className="h-full flex-grow items-start">
-      <article className="prose prose-invert m-auto">
-        <Markdown>{post.content}</Markdown>
-      </article>
-    </main>
+    <article className="prose prose-invert m-auto">
+      <Markdown>{post.content}</Markdown>
+    </article>
   );
 }
