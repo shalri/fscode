@@ -40,6 +40,11 @@ export const fmChallenges = [
     url: "https://shalri.github.io/fm-base-apparel-coming-soon/",
   },
   {
+    title: "Expenses Chart Component",
+    level: "Junior",
+    url: "https://shalri.github.io/fm-expense-chart-component/",
+  },
+  {
     title: "Intro section with dropdown navigation",
     level: "Junior",
     url: "https://shalri.github.io/fm-intro-section-with-dropdown-navigation/",
